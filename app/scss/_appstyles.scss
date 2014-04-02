@@ -1,0 +1,46 @@
+body {
+	h1, h2, h3, h4, h5, h6 {
+		text-transform: uppercase;
+		margin: 0;
+	}
+}
+#content_wrapper {
+	color: #333;
+	font-family: 'Share Tech Mono', sans-serif;	
+	padding: 20px 0;
+	h2 {
+		font-size: 1.4rem;
+		margin: 10px 0 20px 0;
+	}
+	strong, em {
+		font-weight: normal;
+		text-decoration: underline;
+		font-style: normal;
+		background: yellow;
+	}
+	article {
+		margin-bottom: 30px;
+	}
+	#about_me {
+		.icon {
+			margin-left: 5px;
+		}
+	}
+	#previous_works {
+		.figcaption {
+			width: 100%;
+			display: inline-block;
+			margin-top: 15px;
+			text-align: center;
+		}
+	}
+	footer {
+		margin-top: 30px;
+		padding-top: 20px;
+		border-top: 1px solid #ccc;
+	}
+
+	/* hack to fix that sharethis button :( */
+	.stButton .stButton_gradient { height: 21px !important; }
+	.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices { height: 21px !important; }
+}
